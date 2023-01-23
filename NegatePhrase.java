@@ -3,9 +3,11 @@ public class NegatePhrase {
         String str = args[0];
         String strBeg = str.substring(0,3);
         if (strBeg.equals("not")){
-            System.out.println(str);
+            String finalstr = str;
+            System.out.println(finalstr);
         }else{
-            System.out.println("not "+str);
+            String finalstr = "not "+str;
+            System.out.println(finalstr);
         }
     }
 }
